@@ -9,7 +9,7 @@ describe('index.js', function () {
       expect(companyName).to.equal('Scuber');
     });
 
-    it('is defined as a const', function () {
+    it('is defined as a const', function () {git
       expect(js).to.match(/const companyName/, "Expected companyName to be a const");
     });
   });
