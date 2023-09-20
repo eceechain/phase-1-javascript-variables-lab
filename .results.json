@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 6,
-    "passes": 6,
+    "passes": 5,
     "pending": 0,
-    "failures": 0,
-    "start": "2023-09-20T11:09:36.555Z",
-    "end": "2023-09-20T11:09:36.912Z",
-    "duration": 357
+    "failures": 1,
+    "start": "2023-09-20T12:51:31.051Z",
+    "end": "2023-09-20T12:51:31.398Z",
+    "duration": 347
   },
   "tests": [
     {
@@ -22,7 +22,10 @@
       "fullTitle": "index.js companyName is defined as a const",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "stack": "ReferenceError: git is not defined\n    at Context.<anonymous> (test/indexTest.js:12:46)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "git is not defined"
+      }
     },
     {
       "title": "is declared as equal to Chelsea",
@@ -34,7 +37,7 @@
     {
       "title": "is defined using let",
       "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -54,18 +57,22 @@
     }
   ],
   "pending": [],
-  "failures": [],
+  "failures": [
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: git is not defined\n    at Context.<anonymous> (test/indexTest.js:12:46)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "git is not defined"
+      }
+    }
+  ],
   "passes": [
     {
       "title": "is set as Scuber",
       "fullTitle": "index.js companyName is set as Scuber",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "is defined as a const",
-      "fullTitle": "index.js companyName is defined as a const",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -80,7 +87,7 @@
     {
       "title": "is defined using let",
       "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
