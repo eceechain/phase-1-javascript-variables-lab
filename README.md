@@ -48,7 +48,9 @@ that soon.
 
 Now open up `test/indexTest.js`. Hey, there's something! What's all of this
 stuff doing?
-
+it('is set as Scuber', function () {
+  // tests are here
+});
 **Note:** The `test/indexTest.js` has great info that we want to look at, but do
 not edit this file otherwise you may have extra difficulty passing this lab.
 
